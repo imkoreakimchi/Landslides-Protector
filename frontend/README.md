@@ -22,5 +22,8 @@ React + Vite PWA skeleton that renders Kakao Map overlays backed by the FastAPI 
    ```bash
    npm run dev
    ```
+   Vite is configured to bind to `0.0.0.0:5173`, so you can also open it from
+   phones or other devices on the same network via `http://<your-ip>:5173`.
 
-The app pulls segments, rainfall indices, and raster tiles from `/api/*` endpoints.
+The app pulls segments, rainfall indices, and raster tiles from `/api/*`
+endpoints.
